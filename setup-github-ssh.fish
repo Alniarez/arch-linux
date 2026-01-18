@@ -7,7 +7,7 @@ echo
 # Defaults
 set default_key_type ed25519
 set default_key_path ~/.ssh/id_ed25519
-set default_comment "$USER@$(hostname)"
+set default_comment "$USER@(hostname)"
 
 # Ask for key type
 read -P "Key type [$default_key_type]: " key_type
