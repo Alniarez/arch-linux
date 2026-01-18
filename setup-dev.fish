@@ -3,6 +3,11 @@
 cd (dirname (status --current-filename))
 source pkg.fish
 
+# Java (Temurin)
+install_yay \
+    jdk-temurin \
+    jetbrains-toolbox
+
 # Core dev essentials
 install_pacman \
     git \
@@ -22,8 +27,3 @@ install_pacman \
     ruby \
     gradle \
     emacs-wayland
-
-# Java (Temurin)
-install_yay \
-    jdk-temurin \
-    jetbrains-toolbox
