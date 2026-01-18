@@ -1,4 +1,4 @@
-This is my arch linux post installations scripts.
+This is my arch linux post installations scripts. It is intended to be done on top of a minimal KDE plasma desktop enviroment, but it should wotk with other DE.
 
 Ussage:
 ```
