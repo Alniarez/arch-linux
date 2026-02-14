@@ -23,7 +23,6 @@ install_pacman \
 install_pacman \
     flatpak \
     flatpak-kcm \
-    ncspot \
     darktable \
     gimp \
     libopenraw \

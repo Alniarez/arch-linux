@@ -21,4 +21,5 @@ install_pacman \
     konsole \
     okular \
     gwenview \
-    kcalc
+    kcalc \
+    haruna
