@@ -3,15 +3,15 @@
 cd (dirname (status --current-filename))
 source pkg.fish
 
-# Java (Temurin)
+# Java
 install_yay \
-    jdk-temurin \
-    jetbrains-toolbox
+    jdk-temurin
 
-# Core dev essentials
 install_pacman \
-    git \
-    github-cli \
+    gradle
+
+# C / C++
+install_pacman \
     base-devel \
     cmake \
     pkgconf \
@@ -19,12 +19,27 @@ install_pacman \
     lldb \
     gdb \
     valgrind \
-    perf \
-    python \
+    perf
+
+
+# Rust
+install_pacman \
+    rustup
+
+# JS
+install_pacman \
     nodejs \
-    npm \
-    rust \
+    npm
+
+# Python
+install_pacman \
+    python
+
+# Go
+install_pacman \
+    go
+
+# Ruby
+install_pacman \
     rbenv \
-    ruby-build \
-    gradle \
-    emacs-wayland
+    ruby-build

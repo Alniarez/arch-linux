@@ -8,8 +8,6 @@ install_pacman \
     kde-cli-tools \
     kio \
     kio-extras \
-    qt5ct \
-    qt6ct \
     xdg-desktop-portal-kde \
     polkit-kde-agent
 

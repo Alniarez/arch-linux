@@ -30,11 +30,9 @@ install_pacman \
 
 # AUR-only user apps
 install_yay \
-    zen-browser-bin \
+    # Install zen from the discovery
+    # zen-browser-bin \
     obsidian \
     proton-pass-bin \
     protonmail-bridge \
     proton-vpn-gtk-app
-
-# Ensure Zen (Firefox-based) uses Wayland
-set -Ux MOZ_ENABLE_WAYLAND 1

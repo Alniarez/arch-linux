@@ -19,9 +19,9 @@ enable_service \
     power-profiles-daemon
 
 # Set fish as default shell
-set fish_path (which fish)
-if test "$SHELL" != "$fish_path"
-    sudo chsh -s $fish_path (whoami)
+set fish_path (command -v fish)
+if test -n "$fish_path" -a "$fish_path" != "$SHELL"
+    chsh -s "$fish_path" --
 end
 
 echo
