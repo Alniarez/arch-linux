@@ -24,6 +24,7 @@ install_pacman \
     nodejs \
     npm \
     rust \
-    ruby \
+    rbenv \
+    ruby-build \
     gradle \
     emacs-wayland
