@@ -20,4 +20,6 @@ install_pacman \
     okular \
     gwenview \
     kcalc \
-    haruna
+    haruna \
+    ffmpegthumbnailer \
+    ffmpeg
